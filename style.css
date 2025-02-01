@@ -151,7 +151,70 @@ button:hover {
     font-weight: bold;
     margin-bottom: 10px;
     color: #ffeb3b;
+}
 
+/* Styling for the results screen */
+.result-screen {
+    background: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+/*Score text */
+#scoreText h2 {
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+#scoreText h3 {
+    font-size: 20px;
+    color: #ffeb3b;
+    margin-top: 15px;
+}
+
+/* Incorrect answers list */
+.incorrect-list {
+    padding: 0;
+    margin-top: 15px;
+}
+
+.incorrect-item {
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.incorrect-answer {
+    color: red;
+    font-weight: bold;
+}
+
+.correct-answer {
+    color: green;
+    font-weight: bold;
+}
+
+/* Restart button styling */
+#restartBtn {
+    margin-top: 15px;
+    background: #d738ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restartBtn:hover {
+    background: #214aff;
 }
 
 @keyframes vibrate {
@@ -174,6 +237,17 @@ button:hover {
     100% {
         transform: translateX(0px);
     }
+}
+
+#result-list {
+    margin: 20px;
+}
+
+#result-list div {
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 /* Footer */
