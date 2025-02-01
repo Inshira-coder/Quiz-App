@@ -12,3 +12,6 @@ Features:
 🎵 Background Music Toggle – An option to play or mute background music for an immersive experience.
 Purpose:
 QuizSphere is designed to be a fun and educational tool, helping users improve their knowledge while enjoying an engaging and gamified experience.
+
+# VIDEO
+https://github.com/user-attachments/assets/236330b2-8fcb-4095-bd21-edc572446fe6
