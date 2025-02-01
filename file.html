@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">QuizSphere</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Quiz</a></li>
+            <li><a href="#">Results</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="app">
+        <!-- Welcome Page -->
+        <div class="welcome-screen" id="welcomeScreen">
+            <h1>🎮 Welcome to QuizSphere</h1>
+            <p class="quote">🌟 Believe in yourself and take the challenge!</p>
+            <button id="startQuizBtn">Start Quiz</button>
+        </div>
+        <audio id="backgroundMusic" src="Squid Game Season 2 Music Ringtone Download - MobCup.Com.Co.mp3" loop></audio>
+        <!-- Quiz Page -->
+        <div class="quiz-screen" id="quizScreen" style="display: none;">
+            <button id="toggleMusicBtn">🔊 Music</button>
+            <div class="timer">⏳ Time Left: <span id="timer">30</span> sec</div>
+            <h3 id="questionCounter"></h3>
+            <h2 id="question"></h2>
+            <div class="options" id="optionsContainer"></div>
+            <button id="nextBtn" style="display: none;">Next Question</button>
+        </div>
+
+        <!-- Results Page -->
+        <div class="result-screen" id="resultScreen" style="display: none;">
+            <h1>🎉 Quiz Completed!</h1>
+            <p id="scoreText"></p>
+            <button id="restartBtn">Try Again</button>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="footer">&copy; 2025 MySite. All rights reserved.</footer>
+    <script src="file.js"></script>
+</body>
+
+</html>
